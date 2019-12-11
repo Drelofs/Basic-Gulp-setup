@@ -3,7 +3,7 @@
 const 	gulp = require('gulp'),
 	  	browsersync = require("browser-sync"),
 	  	livereload = require('gulp-livereload'),
-	  	clean = require('gulp-clean'),
+	  	clean = require('gulp-clean-css'),
 	  	imagemin = require('gulp-imagemin'),
 	  	cache = require('gulp-cache'),
 	  	sass = require('gulp-sass'),
