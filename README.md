@@ -16,3 +16,14 @@ The `package.json`  and the `gulpfile.js` are already included in this project, 
 4. Happy coding!
 
 After this, you need to keep the `gulp` terminal open, so changes in your dev files will automatically generate the style and script files for your project and refresh the browser window.
+
+## The Gulp tasks
+
+The following tasks are included in this project:
+
+1. **SCSS:** Compiling the sccs files into one minified CSS file.
+2. **JS:** Combining and uglifying all JS files into two files: `vendor.min.js` for the vendor files and `scripts.min.js` for own JS code. 
+3. **Move:** Moving all compiled files from the `app` directory into the `dist` directory.
+4. **Imagemin:** Compressing all included images to reduce disk space and load times. 
+5. **Watch:** Watching for changes in the code and perform certain tasks, like `BrowserSync`.
+6. **BrowserSync:** Automatically reload the browser.
